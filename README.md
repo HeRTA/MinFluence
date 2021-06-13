@@ -9,4 +9,4 @@ python fluence.py
 
 ### Example plot
 
-![Example plot](https://i.imgur.com/N5ANqqF.png "Example plot")
+![Example plot](https://user-images.githubusercontent.com/25392776/121819431-b98ab200-cc95-11eb-9470-e541df434f47.png)
