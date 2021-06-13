@@ -94,8 +94,8 @@ x_hpbw = [point1_hpbw[0], point2_hpbw[0]]
 y_hpbw = [point1_hpbw[1], point2_hpbw[1]]
 
 # Plot fluence detection limits
-plt.plot(x_bs, y_bs, c='#ff7f0e', lw=4, label=r'$\mathrm{Boresight \ (11.5 \ Jy \ ms)}$', alpha=0.7)
-plt.plot(x_hpbw, y_hpbw, c='#2ca02c', lw=4, label=r'$\mathrm{FWHM \ (23 \ Jy \ ms)}$', alpha=0.7)
+plt.plot(x_bs, y_bs, c='#ff7f0e', lw=4, label=r'$\mathrm{Boresight \ (11.5 \ Jy \ ms)}$', alpha=0.7, zorder=20)
+plt.plot(x_hpbw, y_hpbw, c='#2ca02c', lw=4, label=r'$\mathrm{FWHM \ (23 \ Jy \ ms)}$', alpha=0.7, zorder=20)
 plt.fill_between(x_hpbw, y_hpbw, y2=1000, facecolor='green', alpha=0.2)
 plt.fill_between(x_bs, y_bs, y2=1000, facecolor='orange', alpha=0.1)
 legend = plt.legend(fontsize=37)
